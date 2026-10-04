@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="海外生活助手：给在美国生活、英语不太好的华人长辈使用的双语生活手册">
+<title>我的信息 · 海外生活助手</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/print.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+ <div class="fontbar">
+<div class="fontbar-inner">
+<span>🔍 看不清？点右边把字调大</span>
+<div class="font-buttons" aria-label="字号">
+<button data-size="" type="button">标准</button>
+<button data-size="lg" type="button">大</button>
+<button data-size="xl" type="button">特大</button>
+</div>
+</div>
+</div>
+ <header class="sitehead">
+<div class="sitehead-inner">
+<a class="brand" href="index.html">
+<span>🌉</span>
+<span>海外生活助手<small>语言 · 生活 · 安心</small>
+</span>
+</a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-label="打开菜单">☰ 菜单</button>
+</div>
+</header>
+ <nav class="nav" aria-label="主要导航">
+<div class="nav-inner">
+<a href="index.html">首页</a>
+<a href="emergency.html">应急速查</a>
+<a href="scene-medical.html">就医场景</a>
+<a href="scene-daily.html">日常生活</a>
+<a href="scene-gov.html">证件政务</a>
+<a href="scene-tax.html">报税</a>
+<a href="profile.html" aria-current="page">我的信息</a>
+</div>
+</nav>
+ <a class="emergency-bar" href="emergency.html">🚨 紧急情况打 <strong>911</strong> ｜ 不会英文就说 “Chinese, please” （我要中文翻译） 🔊</a>
+ <div class="info-alert">
+<div class="wrap">⚠️ 您还没有填写自己的信息。填好以后，网站会自动把您的地址和电话放进求助的句子里。 <a href="profile.html">现在去填 →</a>
+</div>
+</div>
+ <main class="wrap" id="main">
+<div class="breadcrumb">
+<a href="index.html">首页</a> → <a href="index.html">首页</a> → 我的信息</div>
+<h1>我的信息</h1>
+<section class="callout success">
+<h3>✅ 这些信息只存在您自己的手机里</h3>
+<p>不会传到网上，别人看不到，我们也看不到。<br>换一台手机就要重新填。<br>如果这台手机不是您一个人用，可以只填地址和紧急联系人。</p>
+</section>
+<p class="lead">填好这些，网站会自动把您的地址、电话放进求助的句子里。真的遇到急事的时候，您不用现想，点一下就能念出来。带 * 的最好填上，其他的可以先空着，以后随时能补。</p>
+<form class="profile-form" id="profile-form">
+<fieldset>
+<legend>👤 基本信息</legend>
+<div class="form-row">
+<label for="fullName">我的姓名（英文拼写） *</label>
+<input id="fullName" name="fullName" type="text" placeholder="例：Li Xiuying">
+</div>
+<div class="form-row">
+<label for="homeAddress">我家的地址（英文） *</label>
+<input id="homeAddress" name="homeAddress" type="text" placeholder="例：您的门牌号、街道、公寓号、城市、州和邮编">
+</div>
+<div class="form-row">
+<label for="myPhone">我的手机号 *</label>
+<input id="myPhone" name="myPhone" type="text" placeholder="例：区号和电话号码">
+</div>
+<div class="form-row">
+<label for="birthYear">出生年份 *</label>
+<input id="birthYear" name="birthYear" type="text" placeholder="例：1955（医院和政府都会问）">
+</div>
+</fieldset>
+<fieldset>
+<legend>📞 紧急联系人</legend>
+<div class="form-row">
+<label for="emergencyName">紧急联系人姓名 *</label>
+<input id="emergencyName" name="emergencyName" type="text" placeholder="例：Wang Li（女儿）">
+</div>
+<div class="form-row">
+<label for="emergencyPhone">紧急联系人电话 *</label>
+<input id="emergencyPhone" name="emergencyPhone" type="text" placeholder="例：区号和电话号码">
+</div>
+</fieldset>
+<fieldset>
+<legend>💊 身体情况</legend>
+<div class="form-row">
+<label for="conditions">我的长期病</label>
+<input id="conditions" name="conditions" type="text" placeholder="例：高血压、糖尿病。没有就留空">
+</div>
+<div class="form-row">
+<label for="allergies">我对什么药过敏</label>
+<input id="allergies" name="allergies" type="text" placeholder="例：青霉素 Penicillin。没有就写“无”">
+</div>
+<div class="form-row">
+<label for="medications">我正在吃的药</label>
+<input id="medications" name="medications" type="text" placeholder="例：药名、剂量、每天几次">
+</div>
+<div class="callout info">
+<strong>💡 英文版会显示在救命卡上</strong>
+<p>常见疾病和药名会自动给出英文建议。请让家人或医生核对；不准确时可以直接修改英文。</p>
+</div>
+<div class="form-row">
+<label for="conditionsEn">长期病（英文版）</label>
+<input id="conditionsEn" name="conditionsEn" type="text" placeholder="例：Hypertension, diabetes">
+</div>
+<div class="form-row">
+<label for="allergiesEn">药物过敏（英文版）</label>
+<input id="allergiesEn" name="allergiesEn" type="text" placeholder="例：Penicillin；没有就写 None">
+</div>
+<div class="form-row">
+<label for="medicationsEn">正在吃的药（英文版）</label>
+<input id="medicationsEn" name="medicationsEn" type="text" placeholder="例：Metformin 500 mg twice daily">
+</div>
+</fieldset>
+<fieldset>
+<legend>🏥 保险和医生</legend>
+<div class="form-row">
+<label for="insuranceName">保险公司名字</label>
+<input id="insuranceName" name="insuranceName" type="text" placeholder="例：看保险卡正面">
+</div>
+<div class="form-row">
+<label for="insuranceId">保险卡号</label>
+<input id="insuranceId" name="insuranceId" type="text" placeholder="保险卡正面那串号码">
+</div>
+<div class="form-row">
+<label for="doctorName">我的家庭医生</label>
+<input id="doctorName" name="doctorName" type="text" placeholder="例：医生的英文姓名">
+</div>
+<div class="form-row">
+<label for="doctorPhone">家庭医生电话</label>
+<input id="doctorPhone" name="doctorPhone" type="text" placeholder="例：区号和电话号码">
+</div>
+<div class="form-row">
+<label for="nearestHospital">离我最近的医院</label>
+<input id="nearestHospital" name="nearestHospital" type="text" placeholder="例：医院的英文名称">
+</div>
+</fieldset>
+<fieldset>
+<legend>💼 其他</legend>
+<div class="form-row">
+<label for="workplace">工作单位 / 地址</label>
+<input id="workplace" name="workplace" type="text" placeholder="不上班就留空">
+</div>
+</fieldset>
+<div class="save-status" role="status">✅ 已经保存到您的手机里了</div>
+<button class="btn full" type="submit">💾 保存</button>
+<div class="button-row">
+<button class="btn gray" type="button" data-clear-profile>🗑 清空我填的所有信息</button>
+</div>
+</form>
+<div class="back-row">
+<a class="btn secondary" href="index.html">← 返回上一级</a>
+<a class="btn secondary" href="index.html">🏠 回首页</a>
+</div>
+<p class="sound-tip">🔇 点了没有声音？请检查手机侧边的静音开关是否打开，把它拨回来。</p>
+</main>
+ <footer>
+<div class="footer-inner">
+<div class="footer-brand">🌉 海外生活助手</div>
+<p>专为在美国生活、英语不太好的华人长辈制作</p>
+<p>
+<a href="emergency.html">应急速查</a> · <a href="scene-medical.html">就医场景</a> · <a href="scene-daily.html">日常生活</a> · <a href="scene-gov.html">证件政务</a> · <a href="scene-tax.html">报税</a> · <a href="profile.html">我的信息</a>
+</p>
+<p class="legal">本网站内容仅供参考，不能代替医生、律师和会计师的意见。<br>遇到危及生命的情况，请立刻拨打 911。<br>您填写的个人信息只保存在您自己的手机里，不会上传到任何地方。</p>
+</div>
+</footer>
+ <script src="data/phrases.js">
+</script>
+<script src="js/main.js">
+</script>
+<script src="js/profile.js">
+</script>
+</body>
+</html>
