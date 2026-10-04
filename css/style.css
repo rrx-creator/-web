@@ -162,7 +162,14 @@ body{padding-bottom:96px}
 .tax-official-card span{display:block;color:var(--text-2);font-size:15px;line-height:1.5;margin-top:4px}
 .tax-detected{font-weight:800;color:#1e3a8a}
 @media(max-width:600px){
+ body:not(.fs-lg):not(.fs-xl){--fs-base:16px;--fs-en:15px;--fs-title:27px;--fs-cn-card:21px}
  body{padding-bottom:92px}
+ .table-scroll{overflow-x:visible}
+ .table-scroll table{min-width:0;table-layout:fixed}
+ .table-scroll th:first-child,.table-scroll td:first-child{width:42%}
+ .table-scroll th,.table-scroll td{padding:10px 8px;overflow-wrap:anywhere}
+ .table-scroll td:first-child{font-size:var(--fs-base)}
+ .table-scroll .speak.small{width:36px;height:36px;font-size:17px;margin-left:4px}
  .site-search-form{grid-template-columns:auto minmax(0,1fr)}
  .site-search-label{font-size:0}.site-search-label::after{content:"🔎";font-size:24px}
  .site-search-submit{display:none}
